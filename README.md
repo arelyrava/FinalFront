@@ -82,25 +82,13 @@ git clone https://github.com/arelyrava/BackFinalMoviles.git backend
 ```
 
 
-## 2.Configuración y ejecución del Backend (Django)
+## 2. Configuración y ejecución del Backend (Django)
 
 
 ```bash
 Scripts\activate #Activar entorno virtual (Windows)
-```
-
-
-```bash
 python manage.py makemigrations # Crear archivos de migración basados en modelos
-```
-
-
-```bash
 python manage.py migrate # Aplicar migraciones a la base de datos
-```
-
-
-```bash
 python manage.py runserver # Iniciar servidor de desarrollo en localhost
 ```
 
