@@ -43,6 +43,10 @@ El proyecto combina un **frontend moderno en Angular** con un **backend robusto 
 
 ---
 
+## Imagenes de Proyecto final 
+
+![image alt]
+
 ##  Instalación y ejecución
 
 ### 1. Clonar repositorios
@@ -83,5 +87,6 @@ ng serve -o          # Ejecutar y abrir en navegador
     ├── app_movil_escolar_api/
     ├── manage.py
     └── requirements.txt
+
 
 
