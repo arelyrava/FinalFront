@@ -58,7 +58,7 @@ Maestro
 
 ### TABLAS
 Administrador
-![image alt](
+![image alt](https://github.com/arelyrava/FinalFront/blob/e919ef01b7d42d755130516ab95af8742424b9f5/lista%20administrador.png)
 Alumno
 ![image alt](https://github.com/arelyrava/FinalFront/blob/b3c47f1555e8b8a6288490a8fceb1eb418fd774f/Tabla%20Alumno.png)
 Maestros
@@ -68,7 +68,9 @@ Maestros
 ![image alt](https://github.com/arelyrava/FinalFront/blob/b3c47f1555e8b8a6288490a8fceb1eb418fd774f/Graficas.png)
 
 ### EVENTOS
-![image alt](
+![image alt](https://github.com/arelyrava/FinalFront/blob/e919ef01b7d42d755130516ab95af8742424b9f5/registrar%20evento.png)
+![image alt](https://github.com/arelyrava/FinalFront/blob/e919ef01b7d42d755130516ab95af8742424b9f5/registrar%20evento%202.png)
+![image alt](https://github.com/arelyrava/FinalFront/blob/e919ef01b7d42d755130516ab95af8742424b9f5/tabla%20de%20eventos.png)
 
 
 
