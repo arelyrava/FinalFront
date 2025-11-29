@@ -48,7 +48,7 @@ El proyecto combina un **frontend moderno en Angular** con un **backend robusto 
 
 ![image alt](https://github.com/arelyrava/FinalFront/blob/845651740539add7c281a705000f7922b501b030/imagen_2025-11-29_142432156.png)
 
-### Registros 
+### REGISTROS
 Administrador
 ![image alt](https://github.com/arelyrava/FinalFront/blob/b3c47f1555e8b8a6288490a8fceb1eb418fd774f/registro%20Admin.png)
 Alumno
@@ -56,7 +56,7 @@ Alumno
 Maestro
 ![image alt](https://github.com/arelyrava/FinalFront/blob/b3c47f1555e8b8a6288490a8fceb1eb418fd774f/registro%20maestro.png)
 
-### tablas 
+### TABLAS
 Administrador
 ![image alt](
 Alumno
@@ -64,10 +64,10 @@ Alumno
 Maestros
 ![image alt](https://github.com/arelyrava/FinalFront/blob/b3c47f1555e8b8a6288490a8fceb1eb418fd774f/tabla%20maestro%20.png)
 
-### Graficas 
+### GRAFICAS
 ![image alt](https://github.com/arelyrava/FinalFront/blob/b3c47f1555e8b8a6288490a8fceb1eb418fd774f/Graficas.png)
 
-### Eventos
+### EVENTOS
 ![image alt](
 
 
@@ -82,16 +82,16 @@ git clone https://github.com/arelyrava/BackFinalMoviles.git backend
 
 ## 2.Configuración y ejecución del Backend (Django)
 
-# Activar entorno virtual (Windows)
+### Activar entorno virtual (Windows)
 Scripts\activate  
 
-# Crear archivos de migración basados en modelos
+### Crear archivos de migración basados en modelos
 python manage.py makemigrations  
 
-# Aplicar migraciones a la base de datos
+### Aplicar migraciones a la base de datos
 python manage.py migrate  
 
-# Iniciar servidor de desarrollo en localhost
+### Iniciar servidor de desarrollo en localhost
 python manage.py runserver
 
 
