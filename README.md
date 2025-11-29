@@ -1,27 +1,87 @@
-# AppMovilEscolarWebapp
+# AppMovilEscolar — Web y API
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.11.
+## Descripción
+AppMovilEscolar es una aplicación web completa para la gestión escolar, diseñada para facilitar la administración de estudiantes, cursos, materias y contenidos educativos.  
+El proyecto combina un **frontend moderno en Angular** con un **backend robusto en Django**, ofreciendo una experiencia de usuario fluida y una API segura para operaciones de datos.
 
-## Development server
+### Objetivos principales
+- Digitalizar la gestión académica y administrativa de instituciones educativas.  
+- Permitir que docentes y administradores manejen la información de manera centralizada y segura.  
+- Facilitar la interacción entre usuarios y el sistema mediante un frontend intuitivo.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Qué hace el proyecto
 
-## Code scaffolding
+#### Frontend (Angular)
+- Interfaz web interactiva y responsiva.  
+- Formularios para registro y edición de estudiantes y eventos.  
+- Visualización de información académica en tiempo real.  
+- Comunicación con el backend a través de la API REST.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+#### Backend (Django)
+- API REST para gestionar todos los recursos del sistema (usuarios, cursos, materias, etc.).  
+- Autenticación y autorización de usuario.  
+- Gestión de la base de datos y lógica de negocio.
 
-## Build
+### Beneficios
+- Centraliza la información académica en un solo sistema.  
+- Ahorra tiempo en procesos administrativos.  
+- Mejora la experiencia de docentes, estudiantes y administradores.  
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 🛠 Tecnologías usadas
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### Frontend
+- Angular 16  
+- TypeScript  
+- HTML5 / SCSS  
 
-## Running end-to-end tests
+### Backend
+- Python 3 / Django  
+- Base de datos: MySQL  
+- API REST  
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+##  Instalación y ejecución
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### 1. Clonar repositorios
+```bash
+git clone https://github.com/arelyrava/FinalFront.git frontend
+git clone https://github.com/arelyrava/BackFinalMoviles.git backend
+
+
+## 2.Configuración y ejecución del Backend (Django)
+
+# Activar entorno virtual (Windows)
+Scripts\activate  
+
+# Crear archivos de migración basados en modelos
+python manage.py makemigrations  
+
+# Aplicar migraciones a la base de datos
+python manage.py migrate  
+
+# Iniciar servidor de desarrollo en localhost
+python manage.py runserver
+
+
+## 3. Configuración y ejecución del Frontend (Angular)
+
+cd frontend
+npm install          # Instalar dependencias
+ng serve -o          # Ejecutar y abrir en navegador
+
+
+## Estructura del Proyecto
+/ (raíz)
+├── frontend/          # Angular app
+│   ├── src/
+│   ├── angular.json
+│   └── package.json
+└── backend/           # Django API
+    ├── app_movil_escolar_api/
+    ├── manage.py
+    └── requirements.txt
+
+
