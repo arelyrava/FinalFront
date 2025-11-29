@@ -86,6 +86,7 @@ git clone https://github.com/arelyrava/BackFinalMoviles.git backend
 
 
 ```bash
+cd app_movil_escolar_api
 Scripts\activate #Activar entorno virtual (Windows)
 python manage.py makemigrations # Crear archivos de migración basados en modelos
 python manage.py migrate # Aplicar migraciones a la base de datos
@@ -95,7 +96,7 @@ python manage.py runserver # Iniciar servidor de desarrollo en localhost
 
 ## 3. Configuración y ejecución del Frontend (Angular)
 ```bash
-cd frontend
+cd app-movil-escolar-webapp
 npm install          # Instalar dependencias
 ng serve -o          # Ejecutar y abrir en navegador
 ```
