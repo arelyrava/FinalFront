@@ -29,7 +29,7 @@ El proyecto combina un **frontend moderno en Angular** con un **backend robusto 
 
 ---
 
-## 🛠 Tecnologías usadas
+##  Tecnologías usadas
 
 ### Frontend
 - Angular 16  
@@ -86,22 +86,22 @@ git clone https://github.com/arelyrava/BackFinalMoviles.git backend
 
 
 ```bash
-Scripts\activate ### Activar entorno virtual (Windows)
+Scripts\activate #Activar entorno virtual (Windows)
 ```
 
 
 ```bash
-python manage.py makemigrations ### Crear archivos de migración basados en modelos
+python manage.py makemigrations # Crear archivos de migración basados en modelos
 ```
 
 
 ```bash
-python manage.py migrate ### Aplicar migraciones a la base de datos
+python manage.py migrate # Aplicar migraciones a la base de datos
 ```
 
 
 ```bash
-python manage.py runserver ### Iniciar servidor de desarrollo en localhost
+python manage.py runserver # Iniciar servidor de desarrollo en localhost
 ```
 
 
